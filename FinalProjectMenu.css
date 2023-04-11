@@ -1,0 +1,178 @@
+@font-face {
+  font-family: handrawn;
+  src: url("Handrawn.ttf");
+}
+
+@font-face {
+  font-family: font1;
+  src: url("font1.ttf");
+}
+
+@font-face {
+  font-family: font2;
+  src: url("font2.ttf");
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.image11 {
+  height: 100vh;
+  background-color: white;
+  background-image: url("https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-size: 100%;
+  background-image: repeat-x;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+a:hover {
+  color: orange;
+}
+
+/* HEADER */
+
+.navbarContainer {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgba(23, 23, 24, 0.7);
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+}
+
+#linkTextContainer {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  /* Remove the bullet points */
+  margin: 0;
+  /* Remove default margin */
+  padding: 0;
+  /* Remove default padding */
+}
+
+.linkText {
+  color: #fff;
+  font-size: 1em;
+  text-decoration: none;
+  /* Remove underline from links */
+  margin: 0 20px;
+  /* Add some space between the links */
+  transition: all 0.3s ease;
+  padding: 0 25px;
+}
+
+.linkText:hover {
+  color: orange;
+  /* Change text color on hover */
+}
+
+.logo {
+  height: 50px;
+  /* Set the same height as the navbar */
+  padding-left: 4px;
+  /* Add some padding to the logo */
+  position: absolute;
+  z-index: 100;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+}
+
+/* LOCATION */
+.location {
+  position: fixed;
+  top: 97%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  text-decoration: bold;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 1);
+}
+
+/* MENU TITLE */
+#menu {
+  color: Orange;
+  font-size: 50px;
+  text-align: center;
+}
+
+.category {
+  color: red;
+  font-size: 60px;
+}
+
+.menuleftside {
+  display: inline-block;
+  border: 4px solid blue;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  width: 500px;
+  height: 270%;
+  float: left;
+  margin-left: 25%;
+  font-family: font2;
+}
+
+.menurightside {
+  display: inline-block;
+  border: 4px solid red;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  width: 500px;
+  height: 220%;
+  float: right;
+  margin-right: 25%;
+  font-family: font2;
+}
+
+.fooddescription {
+  font-size: 18px;
+  margin-top: -25px;
+}
+
+.price {
+  margin-top: -10px;
+}
+
+/* LOCATION */
+.location {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 13px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 1);
+}
